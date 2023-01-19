@@ -1,0 +1,24 @@
+body{
+    background-image: url(../img/ac.jpg);
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border: solid black 1px;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#boxA{
+    background-image: url(../img/back_mantel.jpg);
+}
+#boxB{
+    background-image: url(../img/back_mantel.jpg);
+    background-clip: content-box;
+}
+#boxC{
+    background-image: url(../img/back_mantel.jpg);
+    background-size: cover;
+}
